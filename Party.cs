@@ -1,11 +1,7 @@
 namespace knightmoves;
 
 public class Party {
-    public Person[] Guests = new Person[] {
-        new Person("Jimmy", "Scott"),
-        new Person("Bobby", "Jones"),
-        new Person("Sarah", "Smith")
-    };
+    public Person[] Guests = new Person[];
 
     public class Person {
         public string firstName;
