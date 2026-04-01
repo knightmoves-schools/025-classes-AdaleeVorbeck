@@ -1,16 +1,20 @@
-﻿namespace knightmoves;
-public class Party
-{
-    // Add your code here
+namespace knightmoves;
+
+public class Party {
+    public Person[] Guests = new Person[] {
+        new Person("Jimmy", "Scott"),
+        new Person("Bobby", "Jones"),
+        new Person("Sarah", "Smith")
+    };
+
     public class Person {
         public string firstName;
         public string lastName;
-    }
 
-    public Guest (string firstName, string lastName) {
-        this.firstName = "Jimmy";
-        this.lastName = "Scott";
-        this.firstName = "Bobby";
+        public Person(string firstName, string lastName) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
     }
 }
     
