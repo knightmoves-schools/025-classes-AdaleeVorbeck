@@ -11,7 +11,7 @@ public class Person {
 }
 
 public class Party {
-    public Person[] Guests = new Person[} {
+    public Person[] Guests = new Person[] {
         new Person("Jimmy", "Scott"),
         new Person("Bobby", "Jones"),
         new Person("Sarah", "Smith")
